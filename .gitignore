@@ -1,19 +1,21 @@
-/node_modules
-/public/hot
-/public/storage
-/storage/framework/cache/*
-/storage/framework/sessions/*
-/storage/framework/views/*
-/vendor
-/.idea
-/.vagrant
-Homestead.json
-Homestead.yaml
-npm-debug.log
-.env
-.DS_Store
-composer.lock
-/public/css/*
-/public/js/*
-/package-lock.json
-/yarn.lock
+#ant specific
+dist/
+build/
+
+#netbeans specific
+core
+nbproject/*
+!nbproject/project.properties
+!nbproject/project.xml
+
+#java specific
+*.class
+
+#general swap/backup files
+*.so
+*.log
+*.out
+*~
+*.swp
+*.DS_Store
+*.lock
